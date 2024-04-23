@@ -7,6 +7,6 @@ class Contoh1 extends CI_Controller
         echo"Nama saya Pebra Panmulya Putra
             Saya tinggal di daerah Tangerang
             olahraga yang saya sukai adalah
-            bulutangkis";
+            Sepak bola";
     }
 }
