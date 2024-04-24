@@ -5,7 +5,6 @@ class Web extends CI_Controller{
 
     function __construct(){
         parent::__construct();
-        
     }
     
     public function index(){
@@ -13,7 +12,7 @@ class Web extends CI_Controller{
         $this->load->view('v_header', $data);
         $this->load->view('v_index', $data);
         $this->load->view('v_footer', $data);
-        $this->load->view('v_about', $data);
+        
     }
 
     public function about(){
